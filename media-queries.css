@@ -111,6 +111,10 @@ ul.nav-links {
     footer {
         margin-top: 18em;
     }
+    #social-media-links {
+        float: right;
+        font-size: 50px;
+    }
 }
 
 
