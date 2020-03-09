@@ -1,0 +1,61 @@
+* {
+    margin: 2px;
+    box-sizing: border-box;
+
+}
+
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    ul li {
+        background-color: lightgray;
+        width 80%;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    img {
+        width: 339px;
+        height: 224px;
+    }
+    .alert-info a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .alert-info {
+        background-color: #ccffff;
+        border: 2px solid lightgray;
+        height: 50px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
