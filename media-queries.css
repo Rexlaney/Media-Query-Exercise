@@ -24,8 +24,9 @@ img {
 }
 
 h1 {
+    float: left;
     text-align: center;
-    margin-top: 8px;
+    padding: 1em;
     font-size: 2.4em;
     font-weight: bold;
 }
@@ -66,25 +67,45 @@ ul.nav-links {
 
 @media screen and (min-width:992px) {
     body {
-        margin: 0 auto;
+        margin: 0 1em;
     }
     nav  {
        /* display: inline-grid;*/
         float: right;
-        width: 30%;
+
     }
     .nav-links li {
         display: inline-block;
+        background-color: white;
+        margin-top: 28px;
     }
 
-h1 {
-    display: inline-block;
-    float: left;
-    width: 40%;
-    margin:  auto 0;
+    h1 {
+        display: inline-block;
+        float: left;
+        padding-left: 0;
+        margin:  auto 0;
+    }
+
+    nav ul li {
+        background-color: white;
+        padding: 1em;
+    }
+
+    #main.main  {
+        float: left;
+        width: 60%;
+        margin-right: 8px;
+    }
+
+    .sub-section {
+    margin: 0;
+
 }
 
-
+    footer  {
+       margin-top: 18em;
+    }
 }
 
 
